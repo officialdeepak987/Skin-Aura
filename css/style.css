@@ -878,3 +878,102 @@
     letter-spacing: 1px;
     text-decoration: none;
 }
+
+
+
+/* about  us in  */
+
+.why-choose {
+    padding: 80px 20px;
+    background: #f9f4f6;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #5b1c0d;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: #666;
+    font-size: 16px;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.why-card {
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-8px);
+}
+
+.why-card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.why-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #5b1c0d;
+}
+
+.why-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+/* ===================== */
+
+.mission-vision {
+    padding: 80px 20px;
+    background: #ffffff;
+}
+
+.mission-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.mission-box, .vision-box {
+    flex: 1;
+    padding: 40px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f7d4e2, #f9e6ef);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.mission-box h2,
+.vision-box h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #5b1c0d;
+}
+
+.mission-box p,
+.vision-box p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+}
+/*  */

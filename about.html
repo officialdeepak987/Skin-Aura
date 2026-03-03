@@ -14,7 +14,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
@@ -34,82 +35,83 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" role="status"></div>
     </div>
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <div class="container-fluid px-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-4 text-center bg-light py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-envelope fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="mb-1">Email Us</h6>
-                        <span>info@example.com</span>
+    <div class="container-fluid bg-pink d-none d-lg-block py-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-envelope fs-2 text-danger me-3"></i>
+                        <div>
+                            <h6 class="mb-0 fw-bold text-dark">Email Us</h6>
+                            <small class="text-secondary">care@sabclinic.com</small>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 text-center bg-white border-inner py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <a href="index.html" class="navbar-brand">
-                        <h1 class="m-0 text-primary"><i class="fa fa-hospital fs-1 me-3"></i>Plasery</h1>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center bg-light py-3">
-                <div class="d-inline-flex align-items-center justify-content-center">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="mb-1">Call Us</h6>
-                        <span>+012 345 6789</span>
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <i class="bi bi-phone-vibrate fs-2 text-danger me-3"></i>
+                        <div>
+                            <h6 class="mb-0 fw-bold text-dark">Call Us</h6>
+                            <small class="text-secondary">+91-8586844718</small>
+                        </div>
                     </div>
+                </div>
+                <div class="col-lg-4 text-end">
+                    <a class="btn btn-sm btn-outline-danger btn-sm-square rounded-circle me-2" href=""><i
+                            class="bi bi-facebook"></i></a>
+                    <a class="btn btn-sm btn-outline-danger btn-sm-square rounded-circle me-2" href=""><i
+                            class="bi bi-twitter"></i></a>
+                    <a class="btn btn-sm btn-outline-danger btn-sm-square rounded-circle me-2" href=""><i
+                            class="bi bi-linkedin"></i></a>
+                    <a class="btn btn-sm btn-outline-danger btn-sm-square rounded-circle" href=""><i
+                            class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
 
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-4 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-hospital fs-1 me-3"></i>Plasery</h1>
-        </a>
-        <div class="d-none d-lg-flex w-25">
-            <a href="https://htmlcodex.com/downloading/?item=3621" class="btn btn-light px-3">Buy Pro Version</a>
-        </div>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto bg-light py-3 py-lg-0 px-3">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About Us</a>
-                <a href="service.html" class="nav-item nav-link">Our Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu bg-light border-0 m-0">
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="team.html" class="dropdown-item">Team Members</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 shadow-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="https://sabclinic.com/wp-content/uploads/2025/11/logo-cropped.webp" alt="logo"
+                    style="height: 60px;">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto  rounded-pill px-4">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="./about.html" class="nav-item nav-link">About Us</a>
+                    <a href="#" class="nav-item nav-link">Our Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu border-0 shadow-sm m-0">
+                            <a href="#" class="dropdown-item">Appointment</a>
+                            <a href="#" class="dropdown-item">Team Members</a>
+                            <a href="#" class="dropdown-item">Testimonial</a>
+                        </div>
                     </div>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <div class="ms-auto d-none d-lg-block">
+                    <a href="#appoiment" class="btn btn-appointment px-4 py-2">Make Appointment</a>
+                </div>
             </div>
         </div>
-        <div class="d-none d-lg-block w-25 text-end">
-            <a href="#" class="btn btn-light px-3">Make Appointment</a>
-        </div>
     </nav>
-    <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 mb-3">About Us</h1>
             <nav aria-label="breadcrumb">
@@ -120,60 +122,62 @@
                 </ol>
             </nav>
         </div>
-    </div>
+    </div> -->
     <!-- Page Header End -->
 
 
-    <!-- About Start -->
+       <!-- About Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative overflow-hidden pt-5 h-100" style="min-height: 400px;">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
-                        <div class="position-absolute top-0 end-0 bg-white ps-3 pb-3" style="width: 200px; height: 200px;">
-                            <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
-                                <h1 class="text-white mb-0" data-toggle="counter-up">25</h1>
-                                <h3 class="">Years</h3>
-                                <h6 class="mb-0">Experience</h6>
-                            </div>
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="position-relative overflow-hidden pt-5 h-100" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="https://content.jdmagicbox.com/comp/gurgaon/l1/011pxx11.xx11.190405121255.q1l1/catalogue/skin-aura-brain-and-spine-neuro-centre-dlf-city-phase-4-gurgaon-dermatologists-5z66mee5yh.jpg" alt="Skin Aura Brain & Spine Clinic" style="object-fit: cover;">
+                    <div class="position-absolute top-0 end-0 bg-white ps-3 pb-3" style="width: 200px; height: 200px;">
+                        <div class="d-flex flex-column justify-content-center text-center bg-primary h-100 p-3">
+                            <h1 class="text-white mb-0" data-toggle="counter-up">13</h1>
+                            <h3 class="text-white">Years</h3>
+                            <h6 class="text-white mb-0">Experience</h6>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="h-100">
-                        <h1 class="display-5 mb-5">The Leading Plastic Surgery Clinic</h1>
-                        <p class="fs-4 text-primary mb-4">We approach plastic surgery with precision and artistic vision to reveal each patient's unique beauty.</p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-light text-primary me-3" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-users fa-2x"></i>
-                                    </div>
-                                    <h5 class="mb-0">Committed Surgical Team</h5>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="h-100">
+                    <h1 class="display-5 mb-5">Leading Neuro & Skin Care Center in Gurgaon</h1>
+                    <p class="fs-4 text-primary mb-4">We combine advanced neurosurgical precision with expert dermatological care to provide life-changing results.</p>
+                    <div class="row g-4 mb-4">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0 btn-lg-square bg-light text-primary me-3" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-brain fa-2x"></i>
                                 </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="flex-shrink-0 btn-lg-square bg-light text-primary me-3" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-syringe fa-2x"></i>
-                                    </div>
-                                    <h5 class="mb-0">High Standard of Surgery</h5>
-                                </div>
+                                <h5 class="mb-0">Expert Neuro Surgery</h5>
                             </div>
                         </div>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lobortis diam, non blandit nibh. Aliquam sollicitudin id elit sed tincidunt. Integer nec odio nec massa lobortis mollis. Maecenas nec sapien nec sapien vestibulum blandit.</p>
-                        <div class="border-top mt-4 pt-4">
+                        <div class="col-sm-6">
                             <div class="d-flex align-items-center">
-                                <img class="flex-shrink-0 me-3" src="img/profile.jpg" alt="">
-                                <h5 class="mb-0">Call Us: +012 345 6789</h5>
+                                <div class="flex-shrink-0 btn-lg-square bg-light text-primary me-3" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-user-md fa-2x"></i>
+                                </div>
+                                <h5 class="mb-0">Advanced Dermatology</h5>
                             </div>
+                        </div>
+                    </div>
+                    <p class="mb-4">Skin Aura Brain & Spine Neuro center is a reputed clinic run by Dr. Jasdeep Malhotra (Dermatologist) and Dr. Vikas Kathuria (Neurosurgeon). Our facility is dedicated to providing high-quality surgical and non-surgical treatments ranging from complex brain and spine surgeries to advanced laser skin rejuvenation and hair transplantation.</p>
+                    <div class="border-top mt-4 pt-4">
+                        <div class="d-flex align-items-center">
+                            <div class="btn-square bg-light text-primary rounded-circle me-3">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <h5 class="mb-0">Call Us: +91-8586844718</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <!-- About End -->
 
 
@@ -187,20 +191,24 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="https://sabclinic.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-07-at-16.52.53.jpeg" alt="">
                         </div>
                         <div class="team-text text-center px-4">
-                            <h4>Dr. Boris Johnson</h4>
-                            <span>Plastic Surgeon</span>
+                            <h4>Dr. Jasdeep Kaur</h4>
+                            <span>Dermatologist</span>
                         </div>
                         <div class="team-text-overflow text-center bg-light p-4">
-                            <h4>Dr. Boris Johnson</h4>
-                            <p>Plastic Surgeon</p>
+                            <h4>Dr. Jasdeep Kaur</h4>
+                            <p>Dermatologist</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -208,66 +216,29 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="https://sabclinic.com/wp-content/uploads/2026/01/Screenshot-2026-01-07-at-2.23.46-PM.png" alt="">
                         </div>
                         <div class="team-text text-center px-4">
-                            <h4>Dr. Amelia Jones</h4>
-                            <span>Plastic Surgeon</span>
+                            <h4>Dr. Vikas Kathuria</h4>
+                            <span>Neurosurgeon</span>
                         </div>
                         <div class="team-text-overflow text-center bg-light p-4">
                             <h4>Dr. Amelia Jones</h4>
-                            <p>Plastic Surgeon</p>
+                            <p>Neurosurgeon</p>
                             <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-x-twitter"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="team-text text-center px-4">
-                            <h4>Dr. Ava Brown</h4>
-                            <span>Plastic Surgeon</span>
-                        </div>
-                        <div class="team-text-overflow text-center bg-light p-4">
-                            <h4>Dr. Ava Brown</h4>
-                            <p>Plastic Surgeon</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="team-text text-center px-4">
-                            <h4>Dr. Alexander Bell</h4>
-                            <span>Plastic Surgeon</span>
-                        </div>
-                        <div class="team-text-overflow text-center bg-light p-4">
-                            <h4>Dr. Alexander Bell</h4>
-                            <p>Plastic Surgeon</p>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -323,84 +294,134 @@
     <!-- Facts End -->
 
 
-    <!-- Instagram Start -->
-    <div class="container-fluid position-relative instagram p-0 mt-5">
-        <a href="" class="d-flex align-items-center justify-content-center position-absolute top-50 start-50 translate-middle bg-white" style="width: 100px; height: 100px; z-index: 1;">
-            <i class="fab fa-instagram fa-2x text-primary"></i>
-        </a>
-        <div class="row g-0">
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.1s">
-                <img class="img-fluid w-100" src="img/instagram-1.jpg" alt="">
+    <!-- why choose us -->
+   
+    <section class="why-choose">
+    <div class="container">
+        <div class="section-header">
+            <h2>Why Choose Skin Aura Brain & Spine Centre?</h2>
+            <p>Delivering excellence in neurosurgery and dermatology with compassion and precision.</p>
+        </div>
+
+        <div class="why-grid">
+
+            <div class="why-card">
+                <div class="icon">🧠</div>
+                <h3>Advanced Technology</h3>
+                <p>We use modern neurosurgical equipment and advanced dermatological tools for precise and safe treatments.</p>
             </div>
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.2s">
-                <img class="img-fluid w-100" src="img/instagram-2.jpg" alt="">
+
+            <div class="why-card">
+                <div class="icon">👨‍⚕️</div>
+                <h3>Expert Specialists</h3>
+                <p>Highly experienced doctors with years of expertise in handling complex brain and skin conditions.</p>
             </div>
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.3s">
-                <img class="img-fluid w-100" src="img/instagram-3.jpg" alt="">
+
+            <div class="why-card">
+                <div class="icon">❤️</div>
+                <h3>Patient-Centered Care</h3>
+                <p>We focus on personalized treatment plans ensuring comfort, safety, and faster recovery.</p>
             </div>
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.4s">
-                <img class="img-fluid w-100" src="img/instagram-4.jpg" alt="">
+
+            <div class="why-card">
+                <div class="icon">🏥</div>
+                <h3>Modern Infrastructure</h3>
+                <p>State-of-the-art facilities designed to provide a clean, safe, and comfortable environment.</p>
             </div>
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.5s">
-                <img class="img-fluid w-100" src="img/instagram-5.jpg" alt="">
-            </div>
-            <div class="col-4 col-md-2 wow fadeIn" data-wow-delay="0.6s">
-                <img class="img-fluid w-100" src="img/instagram-6.jpg" alt="">
-            </div>
+
         </div>
     </div>
-    <!-- Instagram End -->
+</section>
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- why choose us end -->
+
+
+
+    <!-- mission & vision -->
+
+    <section class="mission-vision">
+    <div class="container mission-wrapper">
+
+        <div class="mission-box">
+            <h2>Our Mission</h2>
+            <p>
+                To provide world-class neurosurgical and dermatological care using advanced medical technologies, 
+                ethical practices, and patient-focused treatment plans.
+            </p>
+        </div>
+
+        <div class="vision-box">
+            <h2>Our Vision</h2>
+            <p>
+                To become Gurgaon’s most trusted neuro and skin care center by delivering innovative treatments 
+                and maintaining excellence in healthcare standards.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    <!--  mission & vision -->
+
+
+
+  <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h1 class="mb-4 text-light"><i class="fa fa-hospital fs-1 me-3"></i>Plasery</h1>
-                    <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+                    <img src="https://sabclinic.com/wp-content/uploads/2025/11/logo-cropped.webp" alt="Logo"
+                        class="mb-4" style="height: 50px; filter: brightness(0) invert(1);">
+                    <p class="small text-secondary">Skin Aura Brain & Spine Neuro center is a reputed clinic offering
+                        various surgical and non-surgical treatments related to skin, hair, brain & spine. Successfully
+                        run by Dr. Jasdeep Malhotra & Dr. Vikas Kathuria.</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-x-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social me-0" href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 class="text-white mb-4">Address</h4>
+                    <p class="mb-2 small"><i class="fa fa-map-marker-alt me-3"></i>H.N. 7311, (GF & Basement), Opp.
+                        Supermart-2, DLF Phase 4, Gurugram - 122002</p>
+                    <p class="mb-2 small"><i class="fa fa-phone-alt me-3"></i>+91-8586844718</p>
+                    <p class="mb-2 small"><i class="fa fa-phone-alt me-3"></i>+91-9215151260</p>
+                    <p class="mb-2 small"><i class="fa fa-envelope me-3"></i>care@sabclinic.com</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h4 class="text-white mb-4">Our Services</h4>
+                    <a class="btn btn-link" href="">Laser Hair Removal</a>
+                    <a class="btn btn-link" href="">Anti-Ageing</a>
+                    <a class="btn btn-link" href="">Head Injury Treatment</a>
+                    <a class="btn btn-link" href="">Brain Tumor Surgery</a>
+                    <a class="btn btn-link" href="">Spine Tumor Surgery</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <h4 class="text-white mb-4">Patient Care</h4>
+                    <a class="btn btn-link" href="">Patient Stories</a>
+                    <a class="btn btn-link" href="">International Patients</a>
+                    <a class="btn btn-link" href="">Video Testimonials</a>
+                    <div class="mt-4">
+                        <h6 class="text-white mb-3">Newsletter</h6>
+                        <div class="position-relative w-100">
+                            <input class="form-control bg-transparent border-light w-100 py-3 ps-4 pe-5" type="text"
+                                placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Join</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid copyright">
-            <div class="container">
+        <div class="container">
+            <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        
-                        <!--/*** The author’s attribution link must remain intact in the template. ***/-->
-                        <!--/*** If you wish to remove this credit link, please purchase the Pro Version . ***/-->
-                        Designed By <a href="https://htmlcodex.com" class="text-white">HTML Codex</a>
+                        &copy; <a class="border-bottom text-white" href="#">Skin Aura Brain & Spine</a>, All Right
+                        Reserved.
                     </div>
                 </div>
             </div>
